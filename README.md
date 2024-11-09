@@ -1,4 +1,4 @@
-# Relatório de Buffer e Bufferbloat
+# Relatório Parte 2
 
 ## 1. Qual é o tempo médio de busca da página da web e seu desvio padrão quando q=20 e q=100?
 
