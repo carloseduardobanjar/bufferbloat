@@ -17,7 +17,7 @@ O comprimento máximo da fila de transmissão (txqueuelen) para a interface de r
 
 Supondo que a fila seja esvaziada a uma taxa de 100 Mb/s e que o tamanho médio de um pacote seja de 1500 bytes, o tempo máximo que um pacote pode esperar na fila é calculado assim:
 
-Tempo máximo de espera = (1000 pacotes * 1500 bytes/pacote * 8) / (100 * 10^6 bits/s) ≈ 120 ms
+Tempo máximo de espera = (1000 pacotes * 1500 bytes/pacote * 8) / (100 * 10^6 bits/s) = 120 ms
 
 Portanto, um pacote pode esperar até aproximadamente 120 ms na fila da NIC antes de ser transmitido.
 
